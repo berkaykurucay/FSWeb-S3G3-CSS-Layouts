@@ -82,3 +82,39 @@ footer a {
   display: block;
   margin: auto;
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+  main {
+    width: 90vw;
+    height: 56vw;
+    margin-top: 3%;
+  }
+  section {
+    justify-content: space-evenly;
+  }
+  section div {
+    width: 45vw;
+  }
+  header h1 {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+  main {
+    width: 90vw;
+    height: 56vw;
+    margin-top: 3%;
+  }
+}
